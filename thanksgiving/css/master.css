@@ -1,0 +1,49 @@
+/* Thanksgiving CSS */
+html {
+  font-family: 'Rum Raisin', sans-serif;
+  background-image: url('../img/Horrible_Hunger_key2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+body {
+  background-color: #CC9900;
+  width: 95%;
+  height: 95%;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  text-align: center;
+  background-color: #CC6600;
+}
+
+.header-item {
+  color: #663300;
+}
+
+.biggest-text {
+  font-size: 175%;
+}
+
+.big-text {
+  font-size: 150%;
+}
+
+.normal-text {
+  font-size: 125%;
+}
+
+.small-text {
+  font-size: 95%;
+}
+
+.center {
+  margin: auto;
+}

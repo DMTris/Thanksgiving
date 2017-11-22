@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rum+Raisin" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+    <title>CSIS 1430 Thanksgiving</title>
+  </head>
+  <body class="center">
+
+    <div class="header-container">
+      <div class="header-item biggest-text">
+        <h1 class="center">Happy Thanksgiving!</h1>
+      </div>
+      <div class="header-item big-text">
+        <h2>A place to rate your Thanksgiving meal.</h2>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <table class="center" id="food-table">
+        <tr class="table-header">
+          <th class="big-text">FOOD</th>
+          <th class="big-text">RATING</th>
+          <th class="big-text">COOK</th>
+        </tr>
+        <tr class="table-row">
+          <td class="normal-text">Turkey</td>
+          <td class="normal-text">1</td>
+          <td class="normal-text">Grandma</td>
+        </tr>
+        <tr class="table-row">
+          <td class="normal-text">Pie</td>
+          <td class="normal-text">2</td>
+          <td class="normal-text">Grandpa</td>
+        </tr>
+        <tr class="table-row">
+          <td class="normal-text">Mashed Potatoes</td>
+          <td class="normal-text">3</td>
+          <td class="normal-text">Mother</td>
+        </tr>
+        <tr class="table-row">
+          <td class="normal-text">Stuffing</td>
+          <td class="normal-text">4</td>
+          <td class="normal-text">Uncle</td>
+        </tr>
+        <tr class="table-row">
+          <td class="normal-text">Gravy</td>
+          <td class="normal-text">5</td>
+          <td class="normal-text">Dad</td>
+        </tr>
+      </table>
+      <div class="main-item">
+        <table class="center">
+          <tr>
+            <th class="big-text">FOOD</th>
+            <th class="big-text">RATING</th>
+            <th class="big-text">COOK</th>
+          </tr>
+          <tr>
+            <td><input type="text" class="normal-text" id="new-food"></td>
+            <td><select class="normal-text" id="new-rating">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select></td>
+            <td><input type="text" class="normal-text" id="new-cook"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="">
+        <button type="button" name="new-button" onclick="newMeal()" class="center big-text"> NEW </button>
+      </div>
+    </div>
+
+    <div class="footer-container">
+      <div class="footer-item small-text">
+        <p>DMTris</p>
+      </div>
+    </div>
+
+  </body>
+</html>
